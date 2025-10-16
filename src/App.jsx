@@ -27,14 +27,14 @@ const App = () => {
       <div className="flex gap-6 mb-10">
         <button
           onClick={() => count < 10 && setCount(count + 1)}
-          className="bg-green-500 hover:bg-green-600 text-white px-6 py-3 rounded-xl text-lg shadow-md transition-all"
+          className="bg-green-500 hover:bg-green-600 text-white px-6 py-3 rounded-xl text-lg shadow-md transition-all cursor-pointer"
         >
           ➕ Increase
         </button>
 
         <button
           onClick={() => count > 1 && setCount(count - 1)}
-          className="bg-red-500 hover:bg-red-600 text-white px-6 py-3 rounded-xl text-lg shadow-md transition-all"
+          className="bg-red-500 hover:bg-red-600 text-white px-6 py-3 rounded-xl text-lg shadow-md transition-all cursor-pointer"
         >
           ➖ Decrease
         </button>
