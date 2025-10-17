@@ -1,4 +1,5 @@
 import { useEffect, useState } from "react";
+import Card from "./components/Card";
 
 const App = () => {
   const [count, setCount] = useState(1);
@@ -52,7 +53,7 @@ const App = () => {
           <p className="text-gray-500 animate-pulse">Loading...</p>
         )}
       </div>
-
+        <Card name="Rao Shahbaz" age="23" />
     </div>
   );
 };
